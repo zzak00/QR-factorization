@@ -13,7 +13,7 @@ def Hv(x):
     return H
 
 
-def Houseolder_decomp(A):
+def HouseHolder_decomp(A):
     m,n=A.shape
     R=A
     Q=np.eye(m,m)
